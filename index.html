@@ -8,15 +8,60 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
+
 <!-- 
 git remote add origin https://github.com/Pujan5555/A03-Pujan.git
 git branch -M main
 git push -u origin main 
 -->
 
-<body>
-    <h1 class="text-red-600">Hello</h1>
+<body class="w-full h-full bg-gradient-to-t from-[#ffffff] to-[#ffffff00]">
+    <!-- navbar starts here -->
+    <nav class="flex justify-between items-center mx-20 my-6">
+        <div class="flex justify-between items-end ">
+            <img src="icons8-arrow-down-50.png" alt="arrow rinterio"
+                class="bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
+            <h2 class="font-manrope font-semibold text-3xl m-1">Rinterio</h2>
+        </div>
+        <div>
+            <ul class="flex justify-between items-center">
+                <li class="m-2 p-2 text-[#494949] font-bold">Home</li>
+                <li class="m-2 p-2 text-[#737373]">Services</li>
+                <li class="m-2 p-2 text-[#737373]">Portfolio</li>
+                <li class="m-2 p-2 text-[#737373]">Blogs</li>
+                <li class="m-2 p-2 text-[#737373]">Contact Us</li>
+            </ul>
+        </div>
+        <div class="flex justify-between items-center space-x-8">
+            <img src="icons8-search-32.png" alt="search" class="rounded-full bg-white border-[#E9E9E9] border-1 p-2">
+            <img src="icons8-cart-32 (1).png" alt="cart" class="rounded-full bg-white border-[#E9E9E9] border-1 p-2">
+            <button
+                class="flex justify-between items-center font-manrope rounded-3xl bg-[#ABEF5F] gap-4 p-2 font-semibold cursor-pointer">
+                Book Consult
+                <img src="icons8-arrow-32.png" alt="rinterio">
+            </button>
+        </div>
+    </nav>
+    <!-- first section house section -->
+
+    <section class="text-center flex flex-col justify-between items-center gap-8">
+        <img src="banner.png" alt="home rinterior">
+        <h1 class="font-manrope text-5xl font-bold text-[#212121]">A barn house of this design has a <br> striking
+            appearance</h1>
+        <p class="text-[#494949]">
+            The barn house captivates with its blend of rustic charm and modern sophistication,
+            featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural
+            light.
+        </p>
+        <button class="bg-[#acef5f7e] border-[#ABEF5F] border-2 flex justify-between items-center gap-3 p-2 rounded-4xl cursor-pointer">View Details
+            <img src="icons8-arrow-down-50.png" alt="arrow rinterio"
+                class="bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
+        </button>
+    </section>
 </body>
 
 </html>
