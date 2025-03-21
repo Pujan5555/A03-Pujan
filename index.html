@@ -28,7 +28,7 @@ git push -u origin main
             <h2 class="font-manrope font-semibold text-3xl m-1">Rinterio</h2>
         </div>
         <div>
-            <ul class="flex justify-between items-center">
+            <ul class="flex justify-between items-center font-manrope">
                 <li class="cursor-pointer m-2 p-2 text-[#494949] font-bold">Home</li>
                 <li class="cursor-pointer m-2 p-2 text-[#737373]">Services</li>
                 <li class="cursor-pointer m-2 p-2 text-[#737373]">Portfolio</li>
@@ -37,8 +37,10 @@ git push -u origin main
             </ul>
         </div>
         <div class="flex justify-between items-center space-x-8">
-            <img src="icons8-search-32.png" alt="search" class="cursor-pointer rounded-full bg-white border-[#E9E9E9] border-1 p-2">
-            <img src="icons8-cart-32 (1).png" alt="cart" class="cursor-pointer rounded-full bg-white border-[#E9E9E9] border-1 p-2">
+            <img src="icons8-search-32.png" alt="search"
+                class="cursor-pointer rounded-full bg-white border-[#E9E9E9] border-1 p-2">
+            <img src="icons8-cart-32 (1).png" alt="cart"
+                class="cursor-pointer rounded-full bg-white border-[#E9E9E9] border-1 p-2">
             <button
                 class="flex justify-between items-center font-manrope rounded-3xl bg-[#ABEF5F] gap-4 p-2 font-semibold cursor-pointer">
                 Book Consult
@@ -52,12 +54,14 @@ git push -u origin main
         <img src="banner.png" alt="home rinterior">
         <h1 class="font-manrope text-5xl font-bold text-[#212121]">A barn house of this design has a <br> striking
             appearance</h1>
-        <p class="text-[#494949]">
+        <p class="text-[#494949] font-manrope">
             The barn house captivates with its blend of rustic charm and modern sophistication,
             featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural
             light.
         </p>
-        <button class="bg-[#acef5f7e] border-[#ABEF5F] border-2 flex justify-between items-center gap-3 p-2 rounded-4xl cursor-pointer">View Details
+        <button
+            class="bg-[#acef5f7e] border-[#ABEF5F] border-2 flex justify-between items-center gap-3 p-2 rounded-4xl cursor-pointer">View
+            Details
             <img src="icons8-arrow-down-50.png" alt="arrow rinterio"
                 class="bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
         </button>
@@ -65,7 +69,46 @@ git push -u origin main
 
     <!-- second section starts -->
 
-    <section></section>
+    <section class="font-[#212121] bg-slate-100 my-16 relative py-16">
+        <img src="Vector.png" alt="rinterio arrow" class="absolute top-0 left-0">
+        <div class="flex justify-between items-center mx-20">
+            <div class="w-[50%] flex flex-col justify-between items-start border-2 border-red-600">
+                <p class="flex justify-between items-center font-manrope">
+                    <img src="icons8-arrow-down-50.png" alt="arrow" class="rotate-270 w-8 h-8">About Us
+                </p>
+                <h1 class="font-manrope text-4xl font-bold">We design thoughtful, <br>
+                    liveable spaces
+                </h1>
+                <p class="font-manrope">
+                    The barn house captivates with its blend of rustic charm and
+                    modern sophistication, featuring weathered wood, sleek metal accents.
+                </p>
+                <!-- cards starts -->
+                <div class="flex justify-between items-center">
+                    <img src="commercial.png" alt="home">
+                    <span>
+                        <h3 class="font-manrope font-bold">Commercial</h3>
+                        <p class="font-manrope">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <img src="residential.png" alt="home">
+                    <span>
+                        <h3 class="font-manrope font-bold">Residential</h3>
+                        <p class="font-manrope">
+                            The barn house captivates with its blend of rustic charm and modern.
+                        </p>
+                    </span>
+                </div>
+                <!-- cards ends here -->
+            </div>
+            <div class="w-[50%] p-0 border-3 border-red-600">
+                <img src="Rectangle.png" alt="home rinterio" class="ml-auto">
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
