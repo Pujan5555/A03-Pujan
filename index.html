@@ -21,13 +21,13 @@ git push -u origin main
 
 <body class="w-full h-full bg-gradient-to-t from-[#ffffff] to-[#ffffff00]">
     <!-- navbar starts here -->
-    <nav class="flex justify-between items-center mx-20 my-6">
+    <nav class="flex justify-between items-center mx-20 my-6 max-sm:mx-4">
         <div class="flex justify-between items-end cursor-pointer">
             <img src="icons8-arrow-down-50.png" alt="arrow rinterio"
                 class=" bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
             <h2 class="font-manrope font-semibold text-3xl m-1">Rinterio</h2>
         </div>
-        <div class="sm:display-none">
+        <div class="max-sm:hidden">
             <ul class="flex justify-between items-center font-manrope">
                 <li class="cursor-pointer m-2 p-2 text-[#494949] font-bold">Home</li>
                 <li class="cursor-pointer m-2 p-2 text-[#737373]">Services</li>
@@ -36,7 +36,7 @@ git push -u origin main
                 <li class="cursor-pointer m-2 p-2 text-[#737373]">Contact Us</li>
             </ul>
         </div>
-        <div class="flex justify-between items-center space-x-8 sm:display-none">
+        <div class="flex justify-between items-center space-x-8 max-sm:hidden">
             <img src="icons8-search-32.png" alt="search"
                 class="cursor-pointer rounded-full bg-white border-[#E9E9E9] border-1 p-2">
             <img src="icons8-cart-32 (1).png" alt="cart"
@@ -47,13 +47,13 @@ git push -u origin main
                 <img src="icons8-arrow-32.png" alt="rinterio">
             </button>
         </div>
-        <div>
+        <div class="hidden max-sm:block">
             <img src="icons8-menu-25.png" alt="menu">
         </div>
     </nav>
     <!-- first section house section -->
 
-    <section class="text-center flex flex-col justify-between items-center gap-8">
+    <section class="text-center flex flex-col justify-between items-center gap-8 max-sm:p-4">
         <img src="banner.png" alt="home rinterior">
         <h1 class="font-manrope text-5xl font-bold text-[#212121]">A barn house of this design has a <br> striking
             appearance</h1>
@@ -63,7 +63,7 @@ git push -u origin main
             light.
         </p>
         <button
-            class="bg-[#acef5f7e] border-[#ABEF5F] border-2 flex justify-between items-center gap-3 p-2 rounded-4xl cursor-pointer">View
+            class="bg-[#acef5f7e] border-[#ABEF5F] border-2 flex justify-between items-center gap-3 p-2 rounded-4xl cursor-pointer max-sm:w-full max-sm:justify-center">View
             Details
             <img src="icons8-arrow-down-50.png" alt="arrow rinterio"
                 class="bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
@@ -73,16 +73,16 @@ git push -u origin main
     <!-- second section starts -->
 
     <section class="font-[#212121] bg-slate-100 my-16 relative py-25">
-        <img src="Vector.png" alt="rinterio arrow" class="absolute top-8 left-14">
-        <div class="flex justify-between items-start mx-20">
-            <div class="w-[50%] flex flex-col justify-between items-start gap-8">
-                <p class="flex justify-between items-center font-manrope p-2 bg-white rounded-4xl">
+        <img src="Vector.png" alt="rinterio arrow" class="absolute top-8 left-14 max-sm:hidden">
+        <div class="flex justify-between items-start mx-20 max-sm:flex-col max-sm:mx-4">
+            <div class="w-[50%] flex flex-col justify-between items-start gap-8 max-sm:w-full max-sm:items-center max-sm:gap-4 max-sm:p-0">
+                <p class="flex justify-between items-center font-manrope p-2 bg-white rounded-4xl max-sm:p-0">
                     <img src="icons8-arrow-down-50.png" alt="arrow" class="rotate-270 w-8 h-8">About Us
                 </p>
-                <h1 class="font-manrope text-4xl font-bold">We design thoughtful, <br>
+                <h1 class="font-manrope text-4xl font-bold max-sm:text-center">We design thoughtful, <br>
                     liveable spaces
                 </h1>
-                <p class="font-manrope">
+                <p class="font-manrope max-sm:text-center">
                     The barn house captivates with its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal accents.
                 </p>
@@ -107,23 +107,23 @@ git push -u origin main
                 </div>
                 <!-- cards ends here -->
             </div>
-            <div class="w-[50%] p-0">
+            <div class="w-[50%] p-0 max-sm:w-full max-sm:my-4">
                 <img src="Rectangle.png" alt="home rinterio" class="ml-auto">
             </div>
         </div>
-        <p class="flex justify-between items-center font-manrope p-2 bg-white rounded-3xl w-1/10 h-8 mt-24 mx-auto">
+        <p class="flex justify-between items-center font-manrope p-2 bg-white rounded-3xl w-1/10 h-8 mt-24 mx-auto max-sm:w-1/2 max-sm:mx-auto max-sm:justify-center">
             <img src="icons8-arrow-down-50.png" alt="arrow" class="rotate-270 w-8 h-8">How we works
         </p>
         <!-- 4 cards headings -->
         <h1 class="font-manrope text-4xl font-bold text-center mt-6">
             Our Work Process
         </h1>
-        <p class="font-manrope text-center mt-6">
+        <p class="font-manrope text-center mt-6 max-sm:mx-4">
             The barn house captivates with its blend of rustic charm and
             modern sophistication, <br> featuring weathered wood, sleek metal accents.
         </p>
         <!-- four cards -->
-        <div class="flex justify-between items-center mx-20 gap-8 mt-10">
+        <div class="flex justify-between items-center mx-20 gap-8 mt-10 max-sm:flex-col max-sm:mx-4">
             <div class="flex flex-col justify-between items-start gap-4 bg-[#E7C1D3] p-6 rounded-2xl">
                 <img src="concept.png" alt="brain">
                 <h3 class="font-bold">Concept</h3>
@@ -149,19 +149,19 @@ git push -u origin main
     </section>
     <!-- third section starts-->
     <section class="text-[#212121] font-manrope pb-16">
-        <p class="flex justify-evenly items-center font-manrope p-2 bg-[#acef5f45] rounded-3xl w-1/6 h-8 mt-24 mx-auto">
+        <p class="flex justify-evenly items-center font-manrope p-2 bg-[#acef5f45] rounded-3xl w-1/6 h-8 mt-24 mx-auto max-sm:w-3/4 max-sm:mx-auto max-sm:justify-center">
             <img src="icons8-arrow-down-50.png" alt="arrow" class="rotate-270 w-8 h-8">Explore our Latest works
         </p>
         <h1 class="font-manrope text-4xl font-bold text-center mt-6">
             Our Latest Portfolio
         </h1>
-        <p class="font-manrope text-center mt-6">
+        <p class="font-manrope text-center mt-6 max-sm:mx-4">
             The barn house captivates with its blend of rustic charm and
             modern sophistication, <br> featuring weathered wood, sleek metal accents.
         </p>
         <!-- photos starts here -->
-        <div class="grid grid-cols-5 gap-8 mx-20 mt-20">
-            <div class="flex justify-between gap-2 col-span-3 border-2 border-[#E9E9E9] rounded-2xl p-2">
+        <div class="grid grid-cols-5 gap-8 mx-20 mt-20 max-sm:flex max-sm:flex-col max-sm:mx-4">
+            <div class="flex justify-between gap-2 col-span-3 border-2 border-[#E9E9E9] rounded-2xl p-2 max-sm:flex-col max-sm:gap-4">
                 <img src="img1.png" alt="home" class="rounded-lg">
                 <div class="p-0 flex flex-col justify-between items-start">
                     <h3 class="text-3xl font-bold">Commerical</h3>
@@ -182,10 +182,10 @@ git push -u origin main
                 <img src="img2.png" alt="home" class="rounded-lg w-full">
             </div>
             <div class="col-span-1 border-2 border-[#E9E9E9] rounded-2xl p-2">
-                <img src="img3.png" alt="home">
+                <img src="img3.png" alt="home" class="max-sm:w-full">
             </div>
-            <div class="col-span-3 flex justify-between items-start gap-2 border-2 border-[#E9E9E9] rounded-2xl p-2">
-                <img src="img4.png" alt="home">
+            <div class="col-span-3 flex justify-between items-start gap-2 border-2 border-[#E9E9E9] rounded-2xl p-2 max-sm:flex-col max-sm:gap-4">
+                <img src="img4.png" alt="home" class="max-sm:w-full">
                 <div class="p-0 flex flex-col justify-between items-start gap-6">
                     <h3 class="text-3xl font-bold">Commerical</h3>
                     <p>
@@ -200,26 +200,26 @@ git push -u origin main
                 </div>
             </div>
             <div class="col-span-1 border-2 border-[#E9E9E9] rounded-2xl p-2">
-                <img src="img5.png" alt="home">
+                <img src="img5.png" alt="home" class="max-sm:w-full">
             </div>
         </div>
     </section>
     <!-- fourth section starts -->
     <section class="text-[#212121] font-manrope bg-slate-100 pt-1 pb-16">
-        <p class="flex justify-evenly items-center font-manrope p-0 bg-[#acef5f45] rounded-3xl w-1/8 h-8 mt-24 mx-auto">
+        <p class="flex justify-evenly items-center font-manrope p-0 bg-[#acef5f45] rounded-3xl w-1/8 h-8 mt-24 mx-auto max-sm:w-1/2 max-sm:mx-auto max-sm:justify-center">
             <img src="icons8-arrow-down-50.png" alt="arrow" class="rotate-270 w-8 h-8">
             Rinterio News
         </p>
         <h1 class="font-manrope text-4xl font-bold text-center mt-6">
             Read Our Articles and News
         </h1>
-        <p class="font-manrope text-center mt-6">
+        <p class="font-manrope text-center mt-6 max-sm:mx-4">
             The barn house captivates with its blend of rustic charm and
             modern sophistication, <br> featuring weathered wood, sleek metal accents.
         </p>
         <!-- 3 cards starts here -->
-        <div class="mx-20 font-manrope text-[#212121] flex justify-between items-center gap-8 mt-10">
-            <div class="w-1/3 bg-white rounded-xl p-6 flex flex-col justify-between items-start gap-4">
+        <div class="mx-20 font-manrope text-[#212121] flex justify-between items-center gap-8 mt-10 max-sm:flex-col max-sm:mx-4">
+            <div class="w-1/3 bg-white rounded-xl p-6 flex flex-col justify-between items-start gap-4 max-sm:w-full">
                 <img src="article1.png" alt="home" class="rounded-lg w-full">
                 <p class="flex justify-between items-center gap-4">
                     <img src="icons8-calendar-25.png" alt="calender">
@@ -237,7 +237,7 @@ git push -u origin main
                         class="bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
                 </button>
             </div>
-            <div class="w-1/3 bg-white rounded-xl p-6 flex flex-col justify-between items-start gap-4">
+            <div class="w-1/3 bg-white rounded-xl p-6 flex flex-col justify-between items-start gap-4 max-sm:w-full">
                 <img src="article2.png" alt="home" class="rounded-lg w-full">
                 <p class="flex justify-between items-center gap-4">
                     <img src="icons8-calendar-25.png" alt="calender">
@@ -255,7 +255,7 @@ git push -u origin main
                         class="bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
                 </button>
             </div>
-            <div class="w-1/3 bg-white rounded-xl p-6 flex flex-col justify-between items-start gap-4">
+            <div class="w-1/3 bg-white rounded-xl p-6 flex flex-col justify-between items-start gap-4 max-sm:w-full">
                 <img src="article3.png" alt="home" class="rounded-lg w-full">
                 <p class="flex justify-between items-center  gap-4">
                     <img src="icons8-calendar-25.png" alt="calender">
@@ -277,19 +277,19 @@ git push -u origin main
     </section>
     <!-- 5th section starts -->
     <section class="bg-[url(bg.jpg)] bg-cover text-[#212121] pt-1 pb-16 mt-2">
-        <p class="flex justify-evenly items-center font-manrope p-0 bg-[#acef5f45] rounded-3xl w-1/8 h-8 mt-24 mx-auto">
+        <p class="flex justify-evenly items-center font-manrope p-0 bg-[#acef5f45] rounded-3xl w-1/8 h-8 mt-24 mx-auto max-sm:w-1/2 max-sm:mx-auto max-sm:justify-center">
             <img src="icons8-arrow-down-50.png" alt="arrow" class="rotate-270 w-8 h-8">
             Let's Connect
         </p>
         <h1 class="font-manrope text-4xl font-bold text-center mt-6">
             Let’s Discuss Next Project
         </h1>
-        <p class="font-manrope text-center mt-6">
+        <p class="font-manrope text-center mt-6 max-sm:mx-4">
             The barn house captivates with its blend of rustic charm and
             modern sophistication, <br> featuring weathered wood, sleek metal accents.
         </p>
         <!-- Form starts here -->
-        <form action="" class="w-3/4 mx-auto mt-8 grid grid-cols-2 gap-5">
+        <form action="" class="w-3/4 mx-auto mt-8 grid grid-cols-2 gap-5 max-sm:w-full max-sm:mx-0 max-sm:flex max-sm:flex-col max-sm:justify-between max-sm:items-center max-sm:p-4">
             <input type="text" placeholder="First Name*"
                 class="bg-white text-[#A0A0A0] p-4 rounded-4xl w-full outline-none border-none col-span-1" required>
             <input type="text" placeholder="Last Name*"
@@ -301,7 +301,7 @@ git push -u origin main
             <textarea name="messages" id="message" placeholder="Write your message here"
                 class="bg-white text-[#A0A0A0] p-4 rounded-3xl w-full outline-none border-none col-span-2 resize-none h-48"></textarea>
             <button type="submit"
-                class="flex justify-center items-center font-manrope rounded-3xl bg-[#ABEF5F] gap-4 p-2 font-semibold cursor-pointer col-span-2">
+                class="flex justify-center items-center font-manrope rounded-3xl bg-[#ABEF5F] gap-4 p-2 font-semibold cursor-pointer col-span-2 max-sm:w-full">
                 Send Mail
                 <img src="icons8-arrow-32.png" alt="rinterio">
             </button>
@@ -309,7 +309,7 @@ git push -u origin main
         <!-- form ends here -->
     </section>
     <!-- footer starts here -->
-    <footer class="bg-black text-[#E9E9E9] px-20 py-10 font-manrope flex flex-col justify-between items-center gap-5 border-b-2 border-[#E9E9E9]">
+    <footer class="bg-black text-[#E9E9E9] px-20 py-10 font-manrope flex flex-col justify-between items-center gap-5 border-b-2 border-[#E9E9E9] max-sm:px-4">
         <button class="flex justify-between items-end cursor-pointer mx-auto">
             <img src="icons8-arrow-down-50.png" alt="arrow rinterio"
                 class=" bg-[#ABEF5F] rounded-full rotate-210 w-8 h-8 p-1 m-1">
@@ -319,7 +319,7 @@ git push -u origin main
             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
             wood, sleek metal accents.
         </p>
-        <ul class="flex justify-between items-center font-manrope w-1/2 mx-auto">
+        <ul class="flex justify-between items-center font-manrope w-1/2 mx-auto max-sm:flex-col max-sm:w-full">
             <li class="cursor-pointer m-2 p-2 text-[#494949] font-bold">Home</li>
             <li class="cursor-pointer m-2 p-2 text-[#737373]">Services</li>
             <li class="cursor-pointer m-2 p-2 text-[#737373]">Portfolio</li>
@@ -327,7 +327,7 @@ git push -u origin main
             <li class="cursor-pointer m-2 p-2 text-[#737373]">Contact Us</li>
         </ul>
         <button
-            class="flex justify-between items-center font-manrope rounded-3xl bg-[#ABEF5F] gap-4 p-2 font-semibold cursor-pointer mx-auto text-black">
+            class="flex justify-between items-center font-manrope rounded-3xl bg-[#ABEF5F] gap-4 p-2 font-semibold cursor-pointer mx-auto text-black max-sm:w-full max-sm:justify-center">
             Book Consult
             <img src="icons8-arrow-32.png" alt="rinterio">
         </button>
